@@ -27,7 +27,8 @@ facebook button backgroun rgb(12, 12, 139, .8)
 
 body{
     height: 100vh;
-    background-image:url(images/b3f4eaaf-c401-45c5-b69b-abf8a881abc9.jpeg) ;
+    width: 100vw;
+    background-image:url(../images/b3f4eaaf-c401-45c5-b69b-abf8a881abc9.jpeg) ;
 }
 
 button{
