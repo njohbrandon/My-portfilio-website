@@ -220,7 +220,7 @@ section{
     justify-content: center;
     align-items: center;
     background-color: var(--main-color);
-    height: 600px;
+    height: 360px;
     border-radius: 3rem;
     cursor: pointer;
     border: 5px solid transparent;

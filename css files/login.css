@@ -27,7 +27,9 @@ facebook button backgroun rgb(12, 12, 139, .8)
 
 body{
     height: 100vh;
-    background-image:url(../images/b3f4eaaf-c401-45c5-b69b-abf8a881abc9.jpeg) ;
+    background-image:url(../images/e19c109b-41a5-41a6-9e11-0bcd9ab67cab.jpeg) ;
+    background-size: cover; 
+    background-repeat: no-repeat; 
 }
 
 button{
@@ -43,7 +45,7 @@ button{
 
 .content{
     width: 400px;
-    background-color: rgba(255,255,255,1);
+    /* background-color: rgba(255,255,255,1); */
     box-shadow:  0 0 20px rgb(0, 0, 0, 0.2), 
                 0 5px 5px 0 rgb(0, 0, 0, 0.24);
     position: absolute;
@@ -52,6 +54,7 @@ button{
     transform: translate(-50%,-50%);
     padding: 40px;
     border-radius: 5px;
+    backdrop-filter: blur(10px);
 }
 
 form h2{

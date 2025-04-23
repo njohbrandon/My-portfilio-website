@@ -1,22 +1,20 @@
-// Import the functions you need from the SDKs you need
-import { getAuth, createUserWithEmailAndPassword } from "https://www.gstatic.com/firebasejs/10.13/firebase-auth.js";
-// Import the functions you need from the SDKs you need
-import { initializeApp } from "https://www.gstatic.com/firebasejs/10.13.1/firebase-app.js";
-// TODO: Add SDKs for Firebase products that you want to use
-// https://firebase.google.com/docs/web/setup#available-libraries
+ // Import the functions you need from the SDKs you need
+ import { initializeApp } from "https://www.gstatic.com/firebasejs/10.13.2/firebase-app.js";
+ // TODO: Add SDKs for Firebase products that you want to use
+ // https://firebase.google.com/docs/web/setup#available-libraries
 
-// Your web app's Firebase configuration
-const firebaseConfig = {
-  apiKey: "AIzaSyDCDY5EZ4xNy3QXtUMFAoDlX8Ej_gEk9y8",
-  authDomain: "first-login-form-9b70a.firebaseapp.com",
-  projectId: "first-login-form-9b70a",
-  storageBucket: "first-login-form-9b70a.appspot.com",
-  messagingSenderId: "632711009167",
-  appId: "1:632711009167:web:7ee06957eb6206cd70f1fa"
-};
+ // Your web app's Firebase configuration
+ const firebaseConfig = {
+   apiKey: "AIzaSyDCDY5EZ4xNy3QXtUMFAoDlX8Ej_gEk9y8",
+   authDomain: "first-login-form-9b70a.firebaseapp.com",
+   projectId: "first-login-form-9b70a",
+   storageBucket: "first-login-form-9b70a.appspot.com",
+   messagingSenderId: "632711009167",
+   appId: "1:632711009167:web:7ee06957eb6206cd70f1fa"
+ };
 
-// Initialize Firebase
-const app = initializeApp(firebaseConfig);
+ // Initialize Firebase
+ const app = initializeApp(firebaseConfig);
 const auth = getAuth();
   
   const submit = document.getElementById('submit2');
